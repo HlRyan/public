@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+/*news*/
+.main_right ul { width:1010px; height:auto;}
+.main_right ul li { width:1010px; height:auto; padding:15px 0; background:url(../images/line_03.jpg) 0 163px repeat-x}
+.main_right ul li img { float:left; margin-right:30px;}
+.main_right ul li h3 { height:30px;}
+.main_right ul li h3 a { font-size:16px; color:#0084da; float:left;}
+.main_right ul li span {font-size:14px;color:#0084da; float:right;}
+.main_right ul li p { font-size:14px; line-height:26px; text-indent:2em;}
+.main_right .nav_top { margin-bottom:13px; font-family:Verdana Constantia }
+
+/*底部页码*/
+.main_right ol { width:320px; height:18px; margin:44px auto 83px;}
+.main_right ol li a.prve { display:block; width:34px; height:16px;border:1px solid #0084da; float:left; margin-right:8px; background:url(../images/bnt-1_03.png) no-repeat center;}
+.main_right ol li a.next{ display:block; width:34px; height:16px;border:1px solid #0084da; float:left; background:url(../images/bnt-2_03.png) no-repeat center; margin-left:19px;}
+.main_right ol li a{ display:block;width:19px; height:16px; border:1px solid #0084da; text-align:center; line-height:16px; color:#666666; margin-left:11px; float:left;}
+.main_right ol li a:hover { background-color:#0084da; color:#FFF;}
+.main_right ol li.on a { background-color:#0084da; color:#FFF;}
+.main_right ol i img, .tab span img { margin:2px 0 0 13px; float:left;}
+.main_right ol li:hover a.prve{ background:url(../images/bnt-1_bg.png) no-repeat center #0084da}
+.main_right ol li:hover a.next{ background:url(../images/bnt-2_bg.png) no-repeat center #0084da}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="keywords" content="百度地图,百度地图API，百度地图自定义工具，百度地图所见即所得工具" />
+	<meta name="description" content="百度地图API自定义地图，帮助用户在可视化操作下生成百度地图" />
+    <title>联系我们</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css"/>
+	<link rel="stylesheet" type="text/css" href="css/contact_us.css"/>
+    <link rel="stylesheet" type="text/css" href="css/another_base.css"/>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/base.js"></script>
+    <script src="js/contact_us.js"></script>
+</head>
+<body>
+	<div class="container_head">
+		<div class="header">
+			<a href="index.html"><img src="images/logo.png"/></a>
+            <ul>
+                <li><a href="index.html">首页<span>index</span></a></li>
+                <li><a href="about_us.html">公司介绍<span>about us</span></a></li>
+                <li><a href="news.html">新闻中心<span>news</span></a></li>
+                <li><a href="product.html">产品中心<span>product</span></a></li>
+                <li><a class="on" href="contact_us.html">联系我们<span>contact us</span></a></li>
+            </ul>
+		</div>
+	</div>
+    <!--banner-->
+    <div id="banner">
+    	<ul>
+        	<li><img src="images/banner.png"/></li>
+            <li><img src="images/banner_02.jpg"/></li>
+            <li><img src="images/banner_03.jpg"/></li>
+        </ul>
+        <div id="num">
+            <a class="on" href="javascript:"></a>
+            <a href="javascript:"></a>
+            <a href="javascript:"></a>
+    	</div>
+    </div>
+    
+    <!--内容-->
+    <div class="contact">
+    	<!--进度 导航-->
+        <div class="nav_top">
+            <span>您当前的位置：</span><a href="index.html">首页</a>><a class="on" href="#">热点聚焦</a>
+        </div>
+        <div class="contact_left">
+        	<h3>联系方式</h3>
+        	<ol>
+            	<li><img src="images/1_01.png"/>联系人：章女士</li>
+                <li><img src="images/photo_03.png"/>电话：0553-8723222</li>
+                <li><img src="images/1_07.png"/>传真：0553-8788777</li>
+                <li><img src="images/1_10.png"/>邮编：241100</li>
+                <li><img src="images/1_13.png"/>Q Q：200214356</li>
+                <li><img src="images/1_16.png"/>邮箱：200214356@qq.com</li>
+                <li><img src="images/1_19.png"/>网址：www.acegem.com</li>
+                <li><img src="images/1_22.png"/>地址:安徽 芜湖 芜湖县 安徽省芜湖县新芜经济开发区纬三路</li>
+			</ol>
+        </div>
+        <div id="contact_right">
+        	<h3>给我留言</h3>
+            <form>
+            <ul>
+            	<li>
+            	  <input type="text" value="姓名" class="name"/>
+            	  <input type="text" value="电话号码" class="number"/>
+            	</li>
+                <li><textarea>给我留言</textarea></li>
+                <li><input type="text" class="auth" value="验证码"/></li>
+                <li><a href="#"><img src="images/auth_code_bg_03.jpg"/></a></li>
+                <li><input type="submit" value="提交" class="bnt"/></li>
+                <li><input type="reset" value="重置" class="bnt"/></li>
+            </ul>
+            </form>
+        </div>
+        <div class="contact_map">
+        	<h3>公司地图</h3>
+            <div class="map">
+        		<div style="width:1008px;height:424px;border:#ccc solid 1px;font-size:12px" id="map"></div>
+    		</div>
+        </div>
+
+   </div>
+    	
+	<!--foot-->
+    <div class="container_foot">
+    	<div class="footer">
+        	<div class="photo">
+            	<h3>艾森格官方微信</h3>
+        		<img src="images/QR_04.png"/> 
+            </div>
+            <dl>
+                <dt>关于我们</dt>
+                <dd><a href="#">企业简介</a></dd>
+                <dd><a href="#">企业荣誉</a></dd>
+                <dd><a href="#">资格认证</a></dd>
+                <dd><a href="#">产品开发</a></dd>
+            </dl>
+            <dl>
+                <dt>产品中心</dt>
+                <dd><a href="#">人参精华</a></dd>
+                <dd><a href="#">三七精华</a></dd>
+                <dd><a href="#">灵芝精华</a></dd>
+                <dd><a href="#">人参皂苷</a></dd>
+            </dl> 
+            <dl>
+                <dt>新闻中心</dt>
+                <dd><a href="#">热点聚焦</a></dd>
+                <dd><a href="#">最新动态</a></dd>
+                <dd><a href="#">行业新闻</a></dd>
+                <dd><a href="#">企业新闻</a></dd>
+            </dl>
+            <dl>
+                <dt>联系我们</dt>
+                <dd><a href="#">在线留言</a></dd>
+                <dd><a href="#">网上咨询</a></dd>
+                <dd><a href="#">联系电话</a></dd>
+            </dl>
+        </div>
+    </div>
+    
+    <div class="bottom">
+        <p>Copyright &copy; 2017 版权归 艾森格生物技术有限公司所有</p>
+   </div>
+</body>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.4"></script>
+<script src="js/map.js"></script>
+</html>

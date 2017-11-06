@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+/*main*/
+.content { width:1010px; height:auto; overflow:hidden; margin:0 auto;}
+.content img{ margin:0 0 33px 26px; float:right;}
+.main p { font-size:14px; color:#878787; line-height:25px; margin-bottom:26px; text-indent:2em;}
+.main .main_right .location{ margin-bottom:28px}
